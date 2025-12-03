@@ -1,3 +1,4 @@
+## 자동저장되긴 하지만 Ctrl+S로 저장권장
 ## README.md는 검색엔진(GitHub & Google)에 기본적으로 모두 걸림
 - 민감한 내용이 있으면 private으로 하거나 표현을 조정
 - 방법1) private로 설정
@@ -24,5 +25,15 @@
 
 ## 샘플 readme.md
 https://github.com/KpmgFuture-Academy/fa02_fin_MODI
+
+
+## 현재작업은 Codespace 컨테이너에만 저장된 상태
+- GitHub에 저장(Push)해야 진짜로 보관됨
+- Codespace가 끝나고도 기록을 남기려면 Git commit + push 필요함.
+- 하단의 터미널에서
+  - git add .
+  - git commit -m "작업 내용 저장"
+  - git push
+
 
 
